@@ -44,6 +44,6 @@ if (app.Environment.IsDevelopment())
 
 app.UseGraphQL();
 app.UseGraphQLGraphiQL();
-app.UseGraphQLPlayground(options: new GraphQL.Server.Ui.Playground.PlaygroundOptions { SchemaPollingEnabled = false });
+//app.UseGraphQLPlayground(options: new GraphQL.Server.Ui.Playground.PlaygroundOptions { SchemaPollingEnabled = false });
 
 app.Run();

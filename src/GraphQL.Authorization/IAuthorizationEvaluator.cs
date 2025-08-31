@@ -15,7 +15,7 @@ public interface IAuthorizationEvaluator
     /// <param name="variables">Represents a readonly dictionary of variables to an executed document.</param>
     /// <param name="requiredPolicies">A set of policies names to authorize.</param>
     /// <returns></returns>
-    Task<AuthorizationResult> Evaluate(
+    public Task<AuthorizationResult> Evaluate(
         ClaimsPrincipal? principal,
         IDictionary<string, object?>? userContext,
         Inputs? variables,

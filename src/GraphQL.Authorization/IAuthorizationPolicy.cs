@@ -8,5 +8,5 @@ public interface IAuthorizationPolicy
     /// <summary>
     /// Returns all requirements of this policy.
     /// </summary>
-    IEnumerable<IAuthorizationRequirement> Requirements { get; }
+    public IEnumerable<IAuthorizationRequirement> Requirements { get; }
 }
